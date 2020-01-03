@@ -134,7 +134,7 @@ https://github.com/sazs34/TaskConfig#%E5%A4%A9%E6%B0%94
 let config = {
     darksky_api: "af1e76ac8c6d32aeeca70913c282393f", //从https://darksky.net/dev/ 上申请key填入即可
     aqicn_api: "efc7c18d1e570e395f5c9b4465b65873541ea13c", //从http://aqicn.org/data-platform/token/#/ 上申请key填入即可
-    huweather_apiKey: "faead3de5f42420098c8132b3924cd09", //和风天气APIkey,可自行前往 https://dev.heweather.com/ 进行获取
+    huweather_apiKey: "1ed730fff8564529851d583bbd883164", //和风天气APIkey,可自行前往 https://dev.heweather.com/ 进行获取
     lat_lon: "34.2833176,109.0066071", //请填写经纬度,直接从谷歌地图中获取即可
     lang: "zh", //语言,请不要修改
     show: {
