@@ -132,10 +132,10 @@ if (isSurge) {
 https://github.com/sazs34/TaskConfig#%E5%A4%A9%E6%B0%94
  */
 let config = {
-    darksky_api: "填这里", //从https://darksky.net/dev/ 上申请key填入即可
-    aqicn_api: "填这里", //从http://aqicn.org/data-platform/token/#/ 上申请key填入即可
+    darksky_api: "af1e76ac8c6d32aeeca70913c282393f", //从https://darksky.net/dev/ 上申请key填入即可
+    aqicn_api: "efc7c18d1e570e395f5c9b4465b65873541ea13c", //从http://aqicn.org/data-platform/token/#/ 上申请key填入即可
     huweather_apiKey: "faead3de5f42420098c8132b3924cd09", //和风天气APIkey,可自行前往 https://dev.heweather.com/ 进行获取
-    lat_lon: "填这里", //请填写经纬度,直接从谷歌地图中获取即可
+    lat_lon: "34.2833176, 109.0066071", //请填写经纬度,直接从谷歌地图中获取即可
     lang: "zh", //语言,请不要修改
     show: {
         log: 0, //调试日志,0为不开启,1为开启,2为开启精简日志
@@ -144,14 +144,14 @@ let config = {
         uv: true, //紫外线显示,false则不显示
         apparent: true, //体感温度显示,false则不显示
         lifestyle: { //此处用于显示各项生活指数，可自行调整顺序，顺序越在前面则显示也会靠前，如果您不想查看某一指数，置为false即可，想看置为true即可
-            comf: false, //舒适度指数,
+            comf: true, //舒适度指数,
             cw: false, //洗车指数,
             drsg: true, //穿衣指数,
             flu: false, //感冒指数,
             sport: false, //运动指数,
             trav: false, //旅游指数,
             uv: false, //紫外线指数,
-            air: false, //空气污染扩散条件指数,
+            air: true, //空气污染扩散条件指数,
             ac: false, //空调开启指数,
             ag: false, //过敏指数,
             gl: false, //太阳镜指数,
@@ -159,7 +159,7 @@ let config = {
             airc: false, //晾晒指数,
             ptfc: false, //交通指数,
             fsh: false, //钓鱼指数,
-            spi: false, //防晒指数
+            spi: true, //防晒指数
         }
     }
 }
